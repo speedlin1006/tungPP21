@@ -1,0 +1,98 @@
+{
+  "title": "PP21",
+  "logoPosition": "right",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "dropdown",
+          "name": "isConnected",
+          "title": "連網",
+          "choices": [
+            { "value": "yes", "text": "是" },
+            { "value": "no", "text": "否" }
+          ]
+        },
+        {
+          "type": "file",
+          "name": "appearancePic",
+          "title": "外觀照片"
+        },
+        {
+          "type": "file",
+          "name": "labelPic",
+          "title": "標籤照片"
+        },
+        {
+          "type": "text",
+          "name": "manufacturer",
+          "title": "廠商名稱"
+        },
+        {
+          "type": "text",
+          "name": "elcV",
+          "title": "電壓(V)"
+        },
+        {
+          "type": "text",
+          "name": "elcA",
+          "title": "電流(A)"
+        },
+        {
+          "type": "text",
+          "name": "pwrW",
+          "title": "消耗功率(W)"
+        },
+        {
+          "type": "dropdown",
+          "name": "over10A",
+          "title": "重耗電大於10A",
+          "choices": [
+            { "value": "yes", "text": "是" },
+            { "value": "no", "text": "否" }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "maintCycle",
+          "title": "保養週期"
+        },
+        {
+          "type": "text",
+          "name": "maintMonth",
+          "title": "保養月份"
+        },
+        {
+          "type": "dropdown",
+          "name": "noPart",
+          "title": "零件停產",
+          "choices": [
+            { "value": "yes", "text": "是" },
+            { "value": "no", "text": "否" }
+          ]
+        },
+        {
+          "type": "dropdown",
+          "name": "noDealer",
+          "title": "無代理商",
+          "choices": [
+            { "value": "yes", "text": "是" },
+            { "value": "no", "text": "否" }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "notifyDate",
+          "title": "原廠收場",
+          "inputType": "date"
+        },
+        {
+          "type": "date",
+          "name": "noFactory",
+          "title": "通知日期"
+        }
+      ]
+    }
+  ]
+}
